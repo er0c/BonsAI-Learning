@@ -1,0 +1,139 @@
+/* src/app/css/home.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ADD8E6; /* Light blue background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the main container covers the full height */
+  }
+  
+  .description {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .tree {
+    position: relative;
+    width: 300px;
+    height: 600px;
+  }
+  
+  .trunk {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 40px;
+    height: 300px;
+    background: #8B4513;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  .branch {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background: #228B22;
+    border-radius: 75px 75px 0 0;
+    z-index: 2;
+  }
+  
+  .branch-top {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .branch-middle {
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .branch-bottom {
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .leaf {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background: #228B22;
+    border-radius: 40px 40px 0 0;
+    z-index: 2;
+  }
+  
+  .leaf-left-top {
+    top: 20px;
+    left: 10%;
+    transform: rotate(-30deg);
+  }
+  
+  .leaf-right-top {
+    top: 20px;
+    right: 10%;
+    transform: rotate(30deg);
+  }
+  
+  .leaf-left-middle {
+    top: 140px;
+    left: 10%;
+    transform: rotate(-30deg);
+  }
+  
+  .leaf-right-middle {
+    top: 140px;
+    right: 10%;
+    transform: rotate(30deg);
+  }
+  
+  .leaf-left-bottom {
+    top: 260px;
+    left: 10%;
+    transform: rotate(-30deg);
+  }
+  
+  .leaf-right-bottom {
+    top: 260px;
+    right: 10%;
+    transform: rotate(30deg);
+  }
+  
+  .root {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    width: 80px;
+    height: 40px;
+    background: #8B4513;
+    border-radius: 50% 50% 0 0;
+    transform: translateX(-50%);
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .root:hover {
+    transform: translateX(-50%) scale(1.1);
+  }
+  

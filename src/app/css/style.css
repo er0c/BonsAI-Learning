@@ -1,0 +1,19 @@
+/* src/app/css/style.css */
+@keyframes scroll {
+    0% { background-position: 0, 0; }
+    100% { background-position: 100vw, 0; }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("/clouds.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: scroll 20s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

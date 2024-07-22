@@ -1,0 +1,51 @@
+/* src/app/css/login.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .TextContainer h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .TextContainer p {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .google-signIn-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #4285F4;
+    color: #4285F4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .google-signIn-btn:hover {
+    background-color: #4285F4;
+    color: white;
+  }
+  
+  .google-signIn-btn img {
+    margin-right: 10px;
+  }
+  
