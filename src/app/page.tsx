@@ -1,8 +1,14 @@
 // src/app/page.tsx
 "use client";
+<<<<<<< HEAD
 
 import React, { useState, useEffect } from 'react';
 import { provider, auth } from '../../utils/firebase'; 
+=======
+import React, { useState, useEffect } from 'react';
+import { provider, auth } from '../../utils/firebase'; // Adjusted the import path
+import firebase from 'firebase/app';
+>>>>>>> joelle-v
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useRouter } from 'next/navigation';
