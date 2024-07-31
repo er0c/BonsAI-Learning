@@ -21,7 +21,7 @@ export default function Home() {
   const handleSignOut = async () => {
     try {
       await signOut(auth);
-      router.push('/login'); // Redirect to login page after sign out
+      router.push('//'); // Redirect to login page after sign out
     } catch (error) {
       console.error("Error signing out: ", error);
     }
