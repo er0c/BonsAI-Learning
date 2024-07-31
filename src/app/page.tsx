@@ -1,8 +1,8 @@
 // src/app/page.tsx
 "use client";
-/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from 'react';
 import { provider, auth } from '../../utils/firebase'; // Adjusted the import path
+import firebase from 'firebase/app';
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useRouter } from 'next/navigation';

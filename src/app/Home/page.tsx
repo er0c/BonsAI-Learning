@@ -34,22 +34,47 @@ export default function Home() {
       <p className="description">
         Personalized AI learning. Gamified.
       </p>
+      
       <div className="tree">
         <div className="trunk"></div>
-        <div className="branch branch-top"></div>
-        <div className="branch branch-middle"></div>
-        <div className="branch branch-bottom"></div>
-        <div className="leaf leaf-left-top"></div>
-        <div className="leaf leaf-right-top"></div>
-        <div className="leaf leaf-left-middle"></div>
-        <div className="leaf leaf-right-middle"></div>
-        <div className="leaf leaf-left-bottom"></div>
-        <div className="leaf leaf-right-bottom"></div>
+        <img
+          src="/leaves1 (3).png"
+          alt="Leaf 1"
+          className="branch1"
+        />
+        <div className="branch1-v2">Advanced Topics</div>
+        <img
+          src="/leaves2 (3).png"
+          alt="Leaf 2"
+          className="branch2"
+        />
+        <div className="branch2-v2">AI Ethics</div>
+
+        <img
+          src="/leaves2 (2).png"
+          alt="Leaf 3"
+          className="branch3"
+        />
+        <div className="branch3-v2">Machine Learning Basics</div>
+
         <Link href="/moduleone">
-          <div className="root">
-            <div>Intro to AI</div>
+          <div className="root1">
+            <img
+              src="/root.png"
+              className="root1"
+            />
+            <div className="root2">Intro to AI</div>
           </div>
         </Link>
+
+        <img
+          src="/leaves4 (1).png"
+          alt="Leaf 3"
+          className="branch4"
+        />
+        <div className="branch4-v2">AI Applications</div>
+        <div className="dirt"></div>
+        <div className="topdirt"></div>
       </div>
     </main>
   );
